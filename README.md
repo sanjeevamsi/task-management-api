@@ -444,38 +444,3 @@ curl -X POST http://localhost:8080/tasks \
 ```bash
 curl http://localhost:8080/tasks
 ```
-
----
-
-# Design Decisions
-
-## Why In-Memory Repository?
-
-The project intentionally avoids databases to focus on:
-- architecture
-- domain modeling
-- testing
-- clean code principles
-
----
-
-## Why DDD?
-
-DDD helps separate:
-- business logic
-- infrastructure concerns
-- presentation logic
-
-This improves maintainability and scalability.
-
----
-
-## Why TDD?
-
-TDD ensures:
-- reliable behavior
-- better design
-- safer refactoring
-- higher test coverage
-
----
